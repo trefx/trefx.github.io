@@ -1,4 +1,4 @@
-title: TRE-FX
+title: TRE-FX project
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 topnav_title: TRE-FX
@@ -31,7 +31,6 @@ plugins:
   - jekyll-github-metadata
   - webrick
 
-    title: TRE-FX project
 
 theme_variables:
   theme_color: 2a2787
