@@ -11,11 +11,6 @@ columns:
     children: 
       - url_text: Home
         url: /
-  - type: links
-    width: 3
-    children: 
-      - url_text: Example page
-        url: /example_page
   - type: image
     image_width: 88px
     width: 2
