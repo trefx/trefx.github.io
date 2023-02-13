@@ -6,7 +6,7 @@ title: TRE-FX Project
 
 _Delivering a federated network of TREs to enable safe analytics_
 
-<a href="img/dare-fx-draft-logo.svg"><img src="img/dare-fx-draft-logo.svg" alt="TRE-FX, delivering a federated network of TREs to enable safe analytics" /></a>
+<a href="assets/img/tre-fx-logo.svg"><img src="assets/img/tre-fx-logo.svg" alt="TRE-FX, delivering a federated network of TREs to enable safe analytics" /></a>
 
 TRE-FX is a project funded by [UKRI](https://www.ukri.org/) Medical Research Council [MRC](https://www.ukri.org/councils/mrc/) and [DARE UK](https://dareuk.org.uk/) for the call [“Inform design of cross-council trusted research environments”](https://www.ukri.org/opportunity/inform-design-of-cross-council-trusted-research-environments/).
 
