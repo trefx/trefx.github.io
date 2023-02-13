@@ -4,8 +4,8 @@ columns:
   - type: image
     image_width: 88px
     width: 2
-    src: 'assets/img/5-safe-ro-crate.svg'
-    alt: 5-Safe RO-Crate logo
+    src: 'assets/img/partners/dareuk-recreated.svg'
+    alt: DARE UK
   - type: links
     width: 3
     children: 
