@@ -1,6 +1,6 @@
 subitems:
   - title: Home
-    url: /index
+    url: /
   - title: Implementation
     url: /implementation
 
