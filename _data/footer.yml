@@ -4,8 +4,8 @@ columns:
   - type: image
     image_width: 88px
     width: 2
-    src: 'assets/img/main_logo.svg'
-    alt: Jekyll Bootstrap theme logo
+    src: 'assets/img/5-safe-ro-crate.svg'
+    alt: 5-Safe RO-Crate logo
   - type: links
     width: 3
     children: 
@@ -15,5 +15,5 @@ columns:
     image_width: 88px
     width: 2
     src: 'assets/img/main_logo.svg'
-    alt: Jekyll Bootstrap theme logo
+    alt: DARE-FX
 
