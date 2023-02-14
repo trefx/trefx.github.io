@@ -53,5 +53,5 @@ Please email `contact🤠trefx.uk` (replacing 🤠 with @) for any questions.
 * University of Liverpool -- Rebecca Wilson
 * University of Birmingham -- Elizabeth Sapey
 * University of Liverpool -- Rebecca Wilson
-* Bitfount -- Naaman Taamuz
+* Bitfount -- Naaman Tammuz
 * Birmingham University Hospitals NHS Trust -- Suzy Gallier
