@@ -3,17 +3,17 @@ extra_line:
 columns:
   - type: image
     image_width: 200px
-    width: 4
+    width: 2
     src: 'assets/img/partners/dareuk-recreated.svg'
     alt: DARE UK
   - type: links
-    width: 4
+    width: 2
     children: 
       - url_text: Home
         url: /
   - type: image
     image_width: 200px
-    width: 4
+    width: 2
     src: 'assets/img/partners/UKRI_logo.png'
     alt: UKRI
 
