@@ -14,6 +14,6 @@ columns:
   - type: image
     image_width: 88px
     width: 2
-    src: 'assets/img/partners/MRC.png'
-    alt: UKRI Medical Research Council
+    src: 'assets/img/partners/UKRI_logo.png'
+    alt: UKRI
 
