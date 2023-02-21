@@ -2,13 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="41.136333mm"
+   height="8.3274336mm"
+   viewBox="0 0 41.136333 8.3274336"
    version="1.1"
    id="svg5"
    xml:space="preserve"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="dareuk-recreated.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,19 +24,20 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="9.5144352"
-     inkscape:cx="232.80415"
-     inkscape:cy="504.39148"
-     inkscape:window-width="3840"
-     inkscape:window-height="2054"
-     inkscape:window-x="3829"
-     inkscape:window-y="-11"
+     inkscape:zoom="2.3786088"
+     inkscape:cx="47.086347"
+     inkscape:cy="137.0549"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs2" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><g
+     id="layer1"
+     transform="translate(-32.672791,-121.78858)"><g
        id="g1425"><g
          id="g1408"><path
            d="m 33.341073,129.6627 v -7.52407 h 2.123894 q 0.981849,0 1.736323,0.43408 0.754473,0.43408 1.162716,1.23507 0.41341,0.80098 0.418578,1.83967 v 0.48059 q 0,1.06453 -0.41341,1.86551 -0.408243,0.80099 -1.173052,1.2299 -0.759641,0.42891 -1.772496,0.43925 z m 0.992184,-6.70758 v 5.89626 h 1.043861 q 1.147213,0 1.782831,-0.71313 0.640786,-0.71314 0.640786,-2.03088 v -0.43925 q 0,-1.28157 -0.604613,-1.98954 -0.599444,-0.71313 -1.705317,-0.72346 z"
@@ -59,7 +61,7 @@
              style="font-size:10.5833px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';fill:#2e2d5f;stroke:#2e2d5f;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
              id="path694" /></g></g><text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.3149px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.257873;opacity:0"
+         style="font-style:normal;font-weight:normal;font-size:10.3149px;line-height:1.25;font-family:sans-serif;opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.257873"
          x="32.522449"
          y="126.41"
          id="text1412"
