@@ -8,7 +8,7 @@ _Delivering a federated network of TREs to enable safe analytics_
 
 <a href="assets/img/tre-fx-logo.svg"><img src="assets/img/tre-fx-logo.svg" alt="TRE-FX, delivering a federated network of TREs to enable safe analytics" /></a>
 
-TRE-FX is a project funded by [ UK Research and Innovation (UKRI)](https://www.ukri.org/) as part of the [“DARE UK (Data and Analytics Research Environments UK)”](http://www.dareuk.org.uk/) programme.
+TRE-FX is a project funded by [UK Research and Innovation (UKRI)](https://www.ukri.org/) as part of the [“DARE UK (Data and Analytics Research Environments UK)”](https://dareuk.org.uk/) programme.
 
 
 ## Motivation
