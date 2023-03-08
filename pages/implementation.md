@@ -1,5 +1,5 @@
 ---
-title: Implementation plan
+title: TRE-FX Implementation plan
 ---
 
 <a href="/assets/img/architecture.svg"><img src="/assets/img/architecture.svg" alt="Five Safes Queries go to Submission layer, polled by TRE polling Layer. It authenticates the query before queing it, to be picked up by the Controlled Layer inside the Trusted Research Infrastructure. The workflow is executed using WfExS (workflow execution service) with results as an RO-Crate, checked for disclosure control. Results propagate upwards to the Five Safe Results API and submitted through the Transparancy Layer to the HDR Data Use Register." /></a>
