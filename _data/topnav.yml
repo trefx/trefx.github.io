@@ -4,3 +4,5 @@ subitems:
 - title: Home
   url: /
     
+- title: News
+  url: /news
