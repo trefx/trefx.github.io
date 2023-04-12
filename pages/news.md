@@ -2,9 +2,17 @@
 title: TRE-FX News
 ---
 
+## 2023-03-08/10
+
+The TRE-FX team engaged in stakeholder engagement activities with in the SATRE team. SATRE ran a workshop on informed design and several TRE-FX team members [attended and contributed](https://discovery.dundee.ac.uk/en/activities/satre-and-the-future-landscape-of-uk-tres). 
+
 ## 2023-03-08
 
-DARE-FX was presented at DARE UK's [Meet the Driver Project](https://dareuk.org.uk/wp-content/uploads/2023/03/Agenda-DARE-UK-Meet-the-Driver-projects.pdf) launch. Carole Goble's slides: [TRE-FX: Core federation services for a federated network of TREs to enable Five Safes analytics](https://doi.org/10.5281/zenodo.7708175)
+TRE-FX was presented at DARE UK's [Meet the Driver Project](https://dareuk.org.uk/wp-content/uploads/2023/03/Agenda-DARE-UK-Meet-the-Driver-projects.pdf) launch. Carole Goble's slides: [TRE-FX: Core federation services for a federated network of TREs to enable Five Safes analytics](https://doi.org/10.5281/zenodo.7708175)
+
+## 2023-03-06
+
+TRE-FX was presented as an exemplar project at the [The UKRI Digital Research Infrastructure (DRI) Community Congress](https://web.cvent.com/event/fc0032b7-0b22-4dd0-8c4c-38f3155df75f).  This event brought together stakeholders of the UKRI DRI strategy. The meeting provided the opportunity to hear more about progress on the [UKRI DRI strategy and its wider context](https://www.ukri.org/what-we-offer/creating-world-class-research-and-innovation-infrastructure/digital-research-infrastructure/).
 
 ## 2023-02-28
 
