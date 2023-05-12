@@ -2,7 +2,7 @@
 title: TRE-FX News
 ---
 
-## 2023-03-08/10
+## 2023-03-08/--10
 
 The TRE-FX team engaged in stakeholder engagement activities with in the SATRE team. SATRE ran a workshop on informed design and several TRE-FX team members [attended and contributed](https://discovery.dundee.ac.uk/en/activities/satre-and-the-future-landscape-of-uk-tres). 
 
