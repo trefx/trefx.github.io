@@ -3,5 +3,9 @@ subitems:
     url: /
   - title: Implementation
     url: /implementation
+  - title: Trusted Workflow Run Crate
+    url: /trusted-wfrun-crate/
+  - title: GitHub
+      url: https://github.com/trefx/
 
   
