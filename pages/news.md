@@ -2,6 +2,14 @@
 title: TRE-FX News
 ---
 
+## 2023-05-16
+
+The first public draft of TRE-FX [Trusted Workflow Run Crate profile 0.3](https://w3id.org/trusted-wfrun-crate/0.3) has been released. Feedback and suggestion is welcome in a dedicated [GitHub repository](https://github.com/trefx/trusted-wfrun-crate/issues). 
+
+## 2023-05-05
+
+The TRE-FX architecture team gathered in Nottingham for a end-to-end hackathon that put together a proof of concept implementation that given a [Hutch](https://hdruk.github.io/hutch) CWL workflow executed it in a TRE pod, using the workflow execution service WfExS which [output](https://trefx.uk/trusted-wfrun-crate/0.3/example-hutch/data/ro-crate-preview.html) was transformed to a [Trusted Workflow Run Crate](https://trefx.uk/trusted-wfrun-crate/). This inform the RO-Crate profile, as well as the TRE-FX architecture. 
+
 ## 2023-03-08/--10
 
 The TRE-FX team engaged in stakeholder engagement activities with in the SATRE team. SATRE ran a workshop on informed design and several TRE-FX team members [attended and contributed](https://discovery.dundee.ac.uk/en/activities/satre-and-the-future-landscape-of-uk-tres). 
