@@ -5,6 +5,8 @@ subitems:
     url: /implementation
   - title: Trusted Workflow Run Crate
     url: /trusted-wfrun-crate/
+  - title: TRE Stakeholder Workshop
+    url: /2023-07-11-tre-stakeholder-workshop
   - title: GitHub
     url: https://github.com/trefx/
 

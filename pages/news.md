@@ -4,7 +4,7 @@ title: TRE-FX News
 
 ## 2023-07-11
 
-TRE-FX is inviting TRE stakeholders across UK and beyond to join a virtual workshop: [Approaching Five Safes with TRE-FX Trusted Workflow Run Crate](https://www.eventbrite.co.uk/e/approaching-five-safes-with-tre-fx-trusted-workflow-run-crate-tickets-652679852007).
+TRE-FX is inviting TRE stakeholders across UK and beyond to join a virtual workshop: [Approaching Five Safes with TRE-FX Trusted Workflow Run Crate](/2023-07-11-tre-stakeholder-workshop).
 
 ## 2023-05-16
 
