@@ -27,8 +27,8 @@ Plan:
   - Host PPIE engagement events for external audiences 
   - Deliver a PPIE video discussing the implementation
 * WP2: Transparency
-  - Develop a ~~Five Safes RO-Crate~~ Trusted Workflow Run RO-Crate
-  - Plan workshop to explore Trusted Workflow Run RO-Crate  requirements with all Stakeholders
+  - Develop a ~~Five Safes RO-Crate~~ [Trusted Workflow Run RO-Crate](/trusted-wfrun-crate/)
+  - Plan [workshop](/2023-07-11-tre-stakeholder-workshop) to explore Trusted Workflow Run RO-Crate requirements with all Stakeholders
   - Develop a whitepaper based on the Trusted Workflow Run RO-Crate 
   - Review the current mechanisms of accessing the HDR Data Use Register 
   - Develop HDR data use register to accept Trusted Workflow Run RO-Crate 
