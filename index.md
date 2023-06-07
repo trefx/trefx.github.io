@@ -32,7 +32,7 @@ do not need to be invented.
 [ELIXIR-UK](https://elixiruknode.org/) and [HDR UK](https://www.hdruk.ac.uk/), 
 with three TRE providers and two leading analysis platforms
 to show through a real reference implementation how we can use secure Research
-Objects to move between TREs while still supporting the **Five Safes principles** that
+Objects to move between TREs while still following the **Five Safes framework** that
 govern and protect patient data; all overseen by patient representatives.
 
 The impact will be a step change for how researchers can safely combine data from
