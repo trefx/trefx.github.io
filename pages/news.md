@@ -2,6 +2,10 @@
 title: TRE-FX News
 ---
 
+## 2023-07-11
+
+TRE-FX is inviting TRE stakeholders across UK and beyond to join a virtual workshop: [Approaching Five Safes with TRE-FX Trusted Workflow Run Crate](https://www.eventbrite.co.uk/e/approaching-five-safes-with-tre-fx-trusted-workflow-run-crate-tickets-652679852007).
+
 ## 2023-05-16
 
 The first public draft of TRE-FX [Trusted Workflow Run Crate profile 0.3](https://w3id.org/trusted-wfrun-crate/0.3) has been released. Feedback and suggestion is welcome in a dedicated [GitHub repository](https://github.com/trefx/trusted-wfrun-crate/issues). 
