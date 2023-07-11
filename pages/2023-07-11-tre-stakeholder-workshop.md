@@ -8,7 +8,7 @@ title: TRE Stakeholder workshop
 
 
 
-* **When**: 11th July 2023 14:00 – 17:00 BST
+* **When**: 11th July 2023 14:00 – 16:30 BST
 * **Where**: Zoom (by [registration](https://www.eventbrite.com/e/approaching-five-safes-with-tre-fx-trusted-workflow-run-crate-tickets-652679852007))
 * **Invitees**: Open to all, in particular stakeholders of UK-based Trusted Research Environment for health data 
 * **Registration**: [Eventbrite event](https://www.eventbrite.com/e/approaching-five-safes-with-tre-fx-trusted-workflow-run-crate-tickets-652679852007)  
@@ -32,7 +32,7 @@ _Subject to change_
 
 * 14:00 Introduction to TRE-FX \
 _Tom Giles, University of Nottingham_
-* 14:15 A very brief overview of computational workflow systems \
+* 14:10 A very brief overview of computational workflow systems \
 _Stian Soiland-Reyes, The University of Manchester_
 * 14:20 Proposed TRE-FX implementation architecture for federated TRE workflows \
 _Tom Giles, University of Nottingham_
@@ -41,17 +41,13 @@ _Stian Soiland-Reyes_
 * 15:00 Demonstration of current TRE-FX prototype \
 _Jonathan Couldridge,  University of Nottingham_
 * 15:20 Break
-* 15:30 Gathering requirements for workflow execution within TREs \
+* 15:30 Q&A and discussions, Gathering requirements for workflow execution within TREs \
 _All_
-* 16:00 Building a TRE Workflow community in the UK \
-_Carole Goble, The University of Manchester_
-* 16:20 Q&A and discussions \
+* 16:00 Name proposals: Trusted Workflow Run Crate or Five Safe Crate or … \
 _All_
-* 16:45 Name proposals: Trusted Workflow Run Crate or Five Safe Crate or … \
-_All_
-* 16:50 Next steps and summary \
+* 16:10 Next steps and summary \
 _Tom Giles, University of Nottingham_
-* 17:00 Closing
+* 16:30 Closing
 
 
 ## References
