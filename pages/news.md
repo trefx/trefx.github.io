@@ -2,6 +2,11 @@
 title: TRE-FX News
 ---
 
+
+## 2023-07-19
+
+Version 0.1.3.2 of the [ROCrates.Net](https://www.nuget.org/packages/ROCrates.Net) library for .NET has been released. This library can be used to create and inspect workflow-centric RO-Crates as used by the TRE-FX, and is planned to support the full Trusted Workflow Run Crate profile. See [ROCrates.Net documentation](https://uon-drs.github.io/ROCrates.Net/) for more information.
+
 ## 2023-07-18
 
 HDR UK and The University of Manchester have announced a [PhD studentship](https://esciencelab.org.uk/hdr/phd/2023/07/18/hdr-uk-phd-studentship/) _Sharing reproducible analyses in Big Healthcare Data Infrastructures_, which will focus on federated computational analytics (e.g. scientific workflow systems) and metadata management across distributed systems, expanding on the prototype from the TRE-FX project.
