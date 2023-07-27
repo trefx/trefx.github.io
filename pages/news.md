@@ -2,6 +2,10 @@
 title: TRE-FX News
 ---
 
+## 2023-07-18
+
+HDR UK and The University of Manchester have announced a [PhD studentship](https://esciencelab.org.uk/hdr/phd/2023/07/18/hdr-uk-phd-studentship/) _Sharing reproducible analyses in Big Healthcare Data Infrastructures_, which will focus on federated computational analytics (e.g. scientific workflow systems) and metadata management across distributed systems, expanding on the prototype from the TRE-FX project.
+
 ## 2023-07-11
 
 TRE-FX is inviting TRE stakeholders across UK and beyond to join a virtual workshop: [Approaching Five Safes with TRE-FX Trusted Workflow Run Crate](/2023-07-11-tre-stakeholder-workshop).
