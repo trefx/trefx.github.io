@@ -9,11 +9,17 @@ description: >
 
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.23.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.3.0
 
 exclude:
   - README.md
   - vendor
+  - Gemfile
+  - Gemfile.lock
+  
+
+
+repository: trefx/trefx.github.io
 
 defaults:
   -
