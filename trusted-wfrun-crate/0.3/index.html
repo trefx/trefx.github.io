@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>5s-crate | Trusted Workflow Run Crate / specifies a profile of RO-Crate for the purpose of workflow execution in a distributed trusted research environment (TRE).</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="5s-crate" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Trusted Workflow Run Crate / specifies a profile of RO-Crate for the purpose of workflow execution in a distributed trusted research environment (TRE)." />
+<meta property="og:description" content="Trusted Workflow Run Crate / specifies a profile of RO-Crate for the purpose of workflow execution in a distributed trusted research environment (TRE)." />
+<link rel="canonical" href="https://w3id.org/trusted-wfrun-crate/0.3" />
+<meta property="og:url" content="https://w3id.org/trusted-wfrun-crate/0.3" />
+<meta property="og:site_name" content="5s-crate" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="5s-crate" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Trusted Workflow Run Crate / specifies a profile of RO-Crate for the purpose of workflow execution in a distributed trusted research environment (TRE).","headline":"5s-crate","url":"https://w3id.org/trusted-wfrun-crate/0.3"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/5s-crate/assets/css/style.css?v=99f90761a3a4091f2d91e0d8d86b8bfc29ab6c13">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/5s-crate/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://trefx.uk/5s-crate/">5s-crate</a></h1>
+      
+
+      <!-- 
+Converted from https://docs.google.com/document/d/1N-3-RkFUFxLl0QozKQ7afhQHs4rKPbHFAzexmgoEF3Y/edit?usp=sharing 
+-->
+
+<h1 id="trusted-workflow-run-crate-profile">Trusted Workflow Run Crate profile</h1>
+
+<p>Authors:</p>
+
+<ol>
+  <li>Stian Soiland-Reyes, The University of Manchester <a href="https://orcid.org/0000-0001-9842-9718">https://orcid.org/0000-0001-9842-9718</a></li>
+  <li>Stuart Wheater <a href="https://orcid.org/0009-0003-2419-1964">https://orcid.org/0009-0003-2419-1964</a></li>
+</ol>
+
+<ul>
+  <li>Permalink: <a href="https://w3id.org/trusted-wfrun-crate/0.3">https://w3id.org/trusted-wfrun-crate/0.3</a></li>
+  <li>Version: 0.3</li>
+  <li>Status: TRE-FX Candidate Recommendation</li>
+  <li>Comments and suggestions: <a href="https://github.com/trefx/trefx-crate/issues">https://github.com/trefx/trefx-crate/issues</a></li>
+  <li>Profile Crate: <a href="ro-crate-metadata.json">ro-crate-metadata.json</a> <a href="ro-crate-preview.html">ro-crate-preview.html</a></li>
+  <li>Specification: <a href="https://github.com/trefx/trusted-wfrun-crate/releases/download/0.3.0/trusted-wfrun-crate-0.3.0.pdf">trusted-wfrun-crate-0.3.0.pdf</a></li>
+  <li>Example crate “Request”: <a href="https://github.com/trefx/trusted-wfrun-crate/releases/download/0.3.0/example-request.bagit.zip">example-request.bagit.zip</a> <a href="example-request/data/ro-crate-metadata.json">ro-crate-metadata.json</a> <a href="example-request/data/ro-crate-preview.html">ro-crate-preview.html</a></li>
+  <li>Example crate “Result”: <a href="https://github.com/trefx/trusted-wfrun-crate/releases/download/0.3.0/example-result.bagit.zip">example-result.bagit.zip</a> <a href="example-result/data/ro-crate-metadata.json">ro-crate-metadata.json</a> <a href="example-result/data/ro-crate-preview.html">ro-crate-preview.html</a></li>
+  <li>Example crate “Hutch”: <a href="https://github.com/trefx/trusted-wfrun-crate/releases/download/0.3.0/example-hutch.bagit.zip">example-hutch.bagit.zip</a> <a href="example-hutch/data/ro-crate-metadata.json">ro-crate-metadata.json</a> <a href="example-hutch/data/ro-crate-preview.html">ro-crate-preview.html</a></li>
+</ul>
+
+<p>This document specifies a draft profile of <a href="https://w3id.org/ro/crate">RO-Crate</a> for the purpose of <a href="https://trefx.uk/implementation">TRE-FX implementation</a> of workflow execution in a distributed trusted research environment (TRE).</p>
+
+<p><em>The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “NOT RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in BCP 14 [<a href="https://doi.org/10.17487/RFC2119">RFC2119</a>] [<a href="https://doi.org/10.17487/RFC8174">RFC8174</a>] when, and only when, they appear in all capitals, as shown here.</em></p>
+
+<p><strong>Note</strong>: All references to schema.org types/properties/instances use the prefix <code class="language-plaintext highlighter-rouge">http://schema.org/</code> (not https) to correspond with their official JSON-LD context.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>A Trusted Workflow Run Crate represents a unit of computational access to sensitive information which is managed in accordance with a set of principles conforming to the 5 safe framework. The aim is to enable trusted workflow execution in a Trusted Research Environment (TRE), from an authenticated workflow run request, through approval and review processes to a completed workflow execution.</p>
+
+<h2 id="archive-serialisation">Archive serialisation</h2>
+
+<p>A compliant Trusted Workflow Run Crate SHOULD be stored and transferred as an <a href="http://www.pkware.com/documents/casestudies/APPNOTE.TXT">ZIP archive</a> containing a single <a href="https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html#combining-with-other-packaging-schemes">BagIt directory</a> (<em>bag</em>) of an arbitrary name, which payload folder <code class="language-plaintext highlighter-rouge">data/</code> contains the RO-Crate Metadata File <code class="language-plaintext highlighter-rouge">ro-crate-metadata.json</code> and any required data files (e.g. inputs).</p>
+
+<p>Internally a processing TRE MAY choose to unpack a ZIP file to a local file store, taking necessary security and performance precautions (see <a href="#security-considerations">Security considerations</a>).</p>
+
+<p>The BagIt <a href="https://www.rfc-editor.org/rfc/rfc8493.html#section-2.1.3">payload manifest</a> [<a href="https://doi.org/10.17487/rfc8493">RFC8493</a>] MUST be present using sha-512 checksums, and the <a href="https://www.rfc-editor.org/rfc/rfc8493.html#section-2.2.1">tag manifest</a> SHOULD be included as sha-512 [<a href="https://doi.org/10.6028/NIST.FIPS.180-4">FIPS 180-4</a>]. Payload and tag manifests using other checksums MAY be included, taking care to exclude <code class="language-plaintext highlighter-rouge">tagmanifest-*</code> files from their checksums.</p>
+
+<p>Example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>query-12389/
+  |   bagit.txt                 # MUST indicate BagIt 1.0 or later
+  |   bag-info.txt              # As per BagIt specification
+  |   manifest-sha512.txt       # As per BagIt specification
+  |   tagmanifest-sha512.txt    # As per BagIt specification
+  |   fetch.txt                 # Optional, per BagIt Specification
+  |   data/                     # Payload: RO-Crate root directory
+      |   ro-crate-metadata.json           # RO-Crate Metadata File MUST be present
+      |   [payload files and directories]  # 1 or more SHOULD be present
+</code></pre></div></div>
+
+<h3 id="bagit-expectations">BagIt expectations</h3>
+
+<p>The <a href="https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html#combining-with-other-packaging-schemes">RO-Crate BagIt expectations</a> for <em>Adding RO-Crate to Bagit</em> MUST be followed. The <code class="language-plaintext highlighter-rouge">bag-info.txt</code> file MUST include a generated <code class="language-plaintext highlighter-rouge">External-Identifier:</code> field, which SHOULD be a UUID URN [<a href="https://doi.org/10.17487/rfc4122">rfc4122</a>], e.g.:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>External-Identifier: urn:uuid:9796155a-fe44-4614-89b8-71945f718ffb
+</code></pre></div></div>
+
+<p>The identifier of the <code class="language-plaintext highlighter-rouge">External-Identifier</code> represents this crate as a request and subsequent response, and SHOULD be freshly generated for each request. It is RECOMMENDED to <em>not</em> modify this identifier as the Trusted Workflow Run Crate progresses through the distributed TRE processing, unless it is recognized as an previous execution.</p>
+
+<p>Note that as the ro-crate-metadata.json establishes payload directory data/ as the RO-Crate Root it can only reference files and directories there within, the RO-Crate MUST NOT reference tag files like <code class="language-plaintext highlighter-rouge">../fetch.txt</code> or other relative paths outside the Bag (see <a href="#security-considerations">Security considerations</a>).</p>
+
+<h3 id="zip-expectations">Zip expectations</h3>
+
+<p>The ZIP archive MUST only contain a single top-level entry for the bag directory, identified by the <em>bagit.txt</em> marker. For interoperability in terms of ZIP features, implementations SHOULD follow <a href="https://www.w3.org/publishing/epub32/epub-ocf.html#sec-zip-container-zipreqs">guidance for an OSF ZIP Container</a> (ignoring <em>OCF Abstract Container</em> requirements).</p>
+
+<h2 id="metadata-file-expectations">Metadata file expectations</h2>
+
+<p>The RO-Crate Metadata File MUST conform to <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/">RO-Crate 1.2</a> (or later minor version).</p>
+
+<p>For the purpose of this specification, this <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/structure.html#ro-crate-metadata-file-ro-crate-metadatajson">Metadata file</a> skeleton is assumed, with all subsequent JSON elements shown added to the <code class="language-plaintext highlighter-rouge">@graph</code> array:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w"> </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/ro/crate/1.2-DRAFT/context"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@graph"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The compliant RO-Crate version MUST be declared in the <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/root-data-entity.html#ro-crate-metadata-file-descriptor">metadata file descriptor</a>:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreativeWork"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ro-crate-metadata.json"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"about"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"conformsTo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/ro/crate/1.2-DRAFT"</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/root-data-entity.html#direct-properties-of-the-root-data-entity">root data entity</a> of a Trusted Workflow Run Crate MUST have the @id equal <code class="language-plaintext highlighter-rouge">"./"</code> (as it is stored within the BagIt ZIP archive). It MAY have an additional <a href="https://www.researchobject.org/ro-crate/1.1/metadata.html#recommended-identifiers"><code class="language-plaintext highlighter-rouge">identifier</code></a>.</p>
+
+<h3 id="profile-conformance">Profile conformance</h3>
+
+<p>Crates conforming to this profile specification SHOULD indicate this on the Root Data Entity dataset, using its own <code class="language-plaintext highlighter-rouge">conformsTo</code>:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Dataset"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"conformsTo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/trusted-wfrun-crate/0.3"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"hasPart"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"mainEntity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289?version=1"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"mentions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#query-37252371-c937-43bd-a0a7-3680b48c0538"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"sourceOrganization"</span><span class="p">:</span><span class="w"> 
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#project-be6ffb55-4f5a-4c14-b60e-47e0951090c70"</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/trusted-wfrun-crate/0.3"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Profile"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Trusted Workflow Run Crate profile"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Note that <code class="language-plaintext highlighter-rouge">licence</code> and <code class="language-plaintext highlighter-rouge">datePublished</code> is not required in a submitted crate, but SHOULD be included for a published crate (see <a href="#publishing-phase">Publishing Phase</a>).</p>
+
+<h3 id="referencing-a-workflow-crate">Referencing a Workflow Crate</h3>
+
+<p>The metadata file MUST reference a <a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate</a> <code class="language-plaintext highlighter-rouge">Dataset</code> as its <code class="language-plaintext highlighter-rouge">mainEntity</code>, indirectly indicating the workflow to execute.</p>
+
+<p>The identifier SHOULD be a permalink or versioned URL (e.g. <a href="https://workflowhub.eu/workflows/289?version=1">https://workflowhub.eu/workflows/289?version=1</a>) or MAY be a nested directory within the BagIt payload directory (e.g. <code class="language-plaintext highlighter-rouge">"workflow289.1/"</code>).</p>
+
+<p><strong>Note</strong>: unlike in the <a href="https://www.researchobject.org/workflow-run-crate/profiles/0.1/workflow_run_crate">Workflow Run profile</a>, the programming language of the workflow and its other metadata are not expressed in this RO-Crate, but within the referenced Workflow RO-Crate. The <code class="language-plaintext highlighter-rouge">programmingLanguage</code> inside the Workflow RO-Crate SHOULD be either <a href="https://w3id.org/workflowhub/workflow-ro-crate#cwl">https://w3id.org/workflowhub/workflow-ro-crate#cwl</a> or <a href="https://w3id.org/workflowhub/workflow-ro-crate#nextflow">https://w3id.org/workflowhub/workflow-ro-crate#nextflow</a>.</p>
+
+<p>See <a href="#security-considerations">security considerations</a> for workflow referencing and execution.</p>
+
+<h4 id="finding-the-ro-crate-archive">Finding the RO-Crate archive</h4>
+
+<p>If the identifier is a URI, an URL to the downloadable Workflow RO-Crate ZIP archive SHOULD be included with <code class="language-plaintext highlighter-rouge">distribution</code>, otherwise clients SHOULD <a href="https://signposting.org/adopters/#workflowhub">use Signposting</a> to find the link to the RO-Crate by looking for the link with <code class="language-plaintext highlighter-rouge">rel="item" type="application/zip" profile="https://w3id.org/ro/crate"</code> – for instance:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-I</span> <span class="s2">"https://workflowhub.eu/workflows/289?version=1"</span>
+</code></pre></div></div>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">OK</span>
+<span class="na">Content-Type</span><span class="p">:</span> <span class="s">text/html; charset=UTF-8</span>
+<span class="na">Link</span><span class="p">:</span> <span class="s">&lt;https://workflowhub.eu/workflows/289/ro_crate?version=1&gt; ;</span>
+<span class="s">      rel="item" ;</span>
+<span class="s">      type="application/zip" ;</span>
+<span class="s">      profile="https://w3id.org/ro/crate" </span>
+</code></pre></div></div>
+
+<h4 id="example">Example:</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289?version=1"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Dataset"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CWL Protein MD Setup tutorial with mutations"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"conformsTo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/workflowhub/workflow-ro-crate/1.0"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"distribution"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289/ro_crate?version=1"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289/ro_crate?version=1"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DataDownload"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"conformsTo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/ro/crate"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"encodingFormat"</span><span class="p">:</span><span class="w"> </span><span class="s2">"application/zip"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>In the above example, the <code class="language-plaintext highlighter-rouge">mainEntity</code> points to a <code class="language-plaintext highlighter-rouge">Dataset</code> that conforms to the Workflow RO-Crate Profile and references the ZIP download URI using <code class="language-plaintext highlighter-rouge">distribution</code>, therefore the client can download the workflow directly without needing to follow Signposting headers.</p>
+
+<h3 id="requested-workflow-run">Requested Workflow Run</h3>
+
+<p>The metadata file MUST include a <a href="http://schema.org/CreateAction">CreateAction</a>, which MUST be referenced from <code class="language-plaintext highlighter-rouge">mentions</code> of the root entity. The identifier SHOULD be based on a UUID (different from the BagIt <code class="language-plaintext highlighter-rouge">External-Identifier</code>).</p>
+
+<p>The CreateAction MUST reference the Workflow Crate using <code class="language-plaintext highlighter-rouge">instrument</code>.</p>
+
+<h4 id="example-1">Example:</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#query-37252371-c937-43bd-a0a7-3680b48c0538"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreateAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"actionStatus"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/PotentialActionStatus"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://orcid.org/0000-0001-9842-9718"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"instrument"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289?version=1"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Execute query 12389 on workflow "</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"input1.txt"</span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The <a href="#execution-states">CreateAction’s actionStatus</a> will change during execution.</p>
+
+<h3 id="requesting-agent">Requesting Agent</h3>
+
+<p>The individual person who is requesting the run MUST be indicated as an <code class="language-plaintext highlighter-rouge">agent</code> from the <code class="language-plaintext highlighter-rouge">CreateAction</code>, which SHOULD have an <code class="language-plaintext highlighter-rouge">affiliation</code> to the organisation they are representing for access control purposes.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://orcid.org/0000-0001-9842-9718"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Person"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Stian Soiland-Reyes"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"affiliation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ror.org/027m9bs27"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"memberOf"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#project-be6ffb55-4f5a-4c14-b60e-47e0951090c70"</span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ror.org/027m9bs27"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Organization"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The University of Manchester"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>Note</strong>: The organisation under <code class="language-plaintext highlighter-rouge">affiliation</code> is typically the employing organisation, e.g. a university or hospital. Virtual organisations such as research projects MAY additionally be listed using <code class="language-plaintext highlighter-rouge">memberOf</code> (see also <a href="#responsible-project">Responsible Project</a> below).</p>
+
+<h3 id="responsible-project">Responsible Project</h3>
+
+<p>The project that the request is sent on behalf of, typically related to permission to use a TRE, MUST be indicated from the root dataset using <code class="language-plaintext highlighter-rouge">sourceOrganization</code> to a <a href="http://schema.org/Project"><code class="language-plaintext highlighter-rouge">Project</code></a>. The responsible project SHOULD be referenced from the requesting agent’s <code class="language-plaintext highlighter-rouge">memberOf</code>.</p>
+
+<p><strong>Note</strong>: The <em>responsible project</em> is not necessarily a <a href="http://schema.org/ResearchProject">ResearchProject</a> corresponding to a funded grant, but may be more specific studies within a funded project. Various TREs may have different granularity and identifiers for the responsible projects. A project <code class="language-plaintext highlighter-rouge">Grant</code> MAY be referenced using <a href="http://schema.org/funding">funding</a> from the responsible project.</p>
+
+<p>It is RECOMMENDED to include TRE-specific ids under <code class="language-plaintext highlighter-rouge">identifier</code> (which MAY be an array).  If the identifier is not globally unique (e.g. an integer rather than an UUID or URI), it is RECOMMENDED to add a <a href="https://www.researchobject.org/ro-crate/1.1/appendix/implementation-notes.html#repository-specific-identifiers">repository-specific identifier</a> and provide the local identifier as <code class="language-plaintext highlighter-rouge">value</code> of a <code class="language-plaintext highlighter-rouge">PropertyValue</code> entity. Multiple repository-specific identifiers MAY be included for different TREs from a single Project entity.</p>
+
+<p>The project MAY indicate the <code class="language-plaintext highlighter-rouge">member</code> organisations, in which case one of them SHOULD match the <code class="language-plaintext highlighter-rouge">affiliation</code> of the <em>Requesting Agent</em> with a  <code class="language-plaintext highlighter-rouge">memberOf</code> to this project.</p>
+
+<h4 id="example-2">Example</h4>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#project-be6ffb55-4f5a-4c14-b60e-47e0951090c70"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Project"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Investigation of cancer (TRE72 project 81)"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+     </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"_:localid:tre72:project81"</span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"funding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://gtr.ukri.org/projects?ref=10038961"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"member"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ror.org/027m9bs27"</span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ror.org/01ee9ar58"</span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"_:localid:tre72:project81"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PropertyValue"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tre72"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"project81"</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://gtr.ukri.org/projects?ref=10038961"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Grant"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EOSC4Cancer"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<!-- Disabled for now
+### Agreement Data
+
+The Agreement data relevant to a Researcher will specify:
+- The projects which a researcher is a participate of;
+- The data instances which each project is permitted access;
+- The analysis types a project is permitted to perform, on each data instance.
+- The permitted address to which responses can be sent for that project.
+-->
+
+<h3 id="inputs">Inputs</h3>
+
+<p>Requested inputs SHOULD be set on the <code class="language-plaintext highlighter-rouge">CreateAction</code> using the <code class="language-plaintext highlighter-rouge">object</code> property:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#query-37252371-c937-43bd-a0a7-3680b48c0538"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreateAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"input1.txt"</span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#enableFastMode"</span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"…"</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Each input MUST have a corresponding data entity, which SHOULD have a <code class="language-plaintext highlighter-rouge">exampleOfWork</code> reference to a corresponding <code class="language-plaintext highlighter-rouge">FormalParameter</code>:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"input1.txt"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"File"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"input1"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"exampleOfWork"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#sequence"</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#enableFastMode"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PropertyValue"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"--fast-mode"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"True"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"exampleOfWork"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#fast"</span><span class="p">}</span><span class="w">  
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#sequence"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"FormalParameter"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"input-sequence"</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#fast"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"FormalParameter"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"fast-mode"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>Tip</strong>: While the <a href="https://www.researchobject.org/ro-crate/1.1/workflows.html#describing-inputs-and-outputs">FormalParameter</a> SHOULD match the definitions within the Workflow Crate referenced from <code class="language-plaintext highlighter-rouge">mainEntity</code>, the only requirement from this profile is that their <code class="language-plaintext highlighter-rouge">name</code> is programmatically recognized by the workflow engine for binding input parameters of the particular workflow.</p>
+
+<h3 id="outputs">Outputs</h3>
+
+<p>If the workflow has successfully executed, that is the <code class="language-plaintext highlighter-rouge">CreateAction</code> has <code class="language-plaintext highlighter-rouge">actionStatus</code> set to <code class="language-plaintext highlighter-rouge">http://schema.org/CompletedActionStatus</code>, the output data entities SHOULD be referenced from the <code class="language-plaintext highlighter-rouge">results</code> array.</p>
+
+<p>Output entities MUST be described as in the <a href="https://w3id.org/ro/wfrun/workflow/0.1">Workflow Run Crate profile</a>, with type SHOULD be either <code class="language-plaintext highlighter-rouge">File</code>, <code class="language-plaintext highlighter-rouge">Dataset</code>, <code class="language-plaintext highlighter-rouge">Collection</code>, <code class="language-plaintext highlighter-rouge">DigitalDocument</code> or <code class="language-plaintext highlighter-rouge">PropertyValue</code>.</p>
+
+<p>Implementations MAY include the outputs within the Crate BagIt archive, in which case it is RECOMMENDED to use the folder <code class="language-plaintext highlighter-rouge">outputs/</code> to avoid conflict with other files in the crate.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#query-37252371-c937-43bd-a0a7-3680b48c0538"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreateAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"outputs/table.csv"</span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"outputs/diagrams/"</span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"…"</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"outputs/qa.csv"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"File"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"encodingFormat"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text/csv"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Tabular listing of quality assessment"</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"outputs/diagrams/"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Dataset"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Diagrams of regions of interest"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>Tip</strong>: Implementations may need to inspect the <code class="language-plaintext highlighter-rouge">FormalParameter</code> of the referenced Workflow Crate to propagate a human readable <em>name</em> and <em>encodingFormat</em> file format of the inputs and output in this crate.</p>
+
+<h4 id="sensitive-data">Sensitive data</h4>
+
+<p>Outputs MAY include references to sensitive data that is only accessible from within the TRE or through URIs that require authentication. The requirement for permission SHOULD be indicated by typing the data entity as a <a href="http://schema.org/DigitalDocument">DigitalDocument</a> that use <code class="language-plaintext highlighter-rouge">hasDigitalDocumentPermission</code> to reference the <a href="http://schema.org/DigitalDocumentPermission">DigitalDocumentPermission</a> entity, typically assigning <code class="language-plaintext highlighter-rouge">http://schema.org/ReadPermission</code> with <code class="language-plaintext highlighter-rouge">grantee</code> to only to the <em>Responsible Project</em>.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"urn:uuid:07b81e0f-7ac4-5428-9940-878b241e2397"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DigitalDocument"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"encodingFormat"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text/csv"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Patient measurement 07b81e0f-7ac4-5428-9940-878b241e2397"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"hasDigitalDocumentPermission"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#permissions-07b81e0f"</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#permissions-07b81e0f"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DigitalDocumentPermission"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"permissionType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/ReadPermission"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"grantee"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#project-be6ffb55-4f5a-4c14-b60e-47e0951090c70"</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="review-process">Review process</h3>
+
+<p>The Trusted Workflow Run Crate may face several reviews both before and after workflow execution, automated and manual. To record that such review will or has taken place, a series of additional <a href="http://schema.org/docs/actions.html"><code class="language-plaintext highlighter-rouge">Action</code></a> contextual entities SHOULD be related to the root data entity using <code class="language-plaintext highlighter-rouge">mentions</code>.</p>
+
+<p>It is RECOMMENDED that the first step after authentication is a syntactic validation step that verifies the RO-Crate validity according to this profile and system expectations. This step SHOULD remove <code class="language-plaintext highlighter-rouge">mentions</code> references to any end-user-provided <a href="http://schema.org/AssessAction">AssessAction</a> (as defined in this profile) from the submitted crate, in order to ensure only assessment endorsements by the particular TRE are considered in the subsequent internal processing.</p>
+
+<p>Assessment actions SHOULD indicate an <a href="#heading=h.byrges19zp0h">actionStatus</a> to reflect the outcome or pending nature of the assessment. Each assessment SHOULD have the root data entity (typically <code class="language-plaintext highlighter-rouge">{"@id": "./"}</code>) listed under <code class="language-plaintext highlighter-rouge">object</code>, and MAY include additional entities that were assessed.</p>
+
+<p>The phase of the review process is indicated using subclasses of <code class="language-plaintext highlighter-rouge">Action</code> and more accurately with <code class="language-plaintext highlighter-rouge">additionalType</code> using terms from the Safe Haven Provenance (<a href="https://w3id.org/shp">SHP</a>) ontology.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">name</code> of the action MUST provide a human readable name of the type of check and its outcome, but SHOULD NOT be consulted by software for decision making (rather they should check <code class="language-plaintext highlighter-rouge">actionStatus</code> and <code class="language-plaintext highlighter-rouge">additionalType</code>).</p>
+
+<p>Each completed action SHOULD have a timestamp using <code class="language-plaintext highlighter-rouge">endTime</code> that follow the ISO-8601 syntax of <a href="https://doi.org/10.17487/RFC3339">RFC 3339</a> (including timezone or Z). <code class="language-plaintext highlighter-rouge">startTime</code> MAY be included for active, failed and completed actions.</p>
+
+<p>The main actor performing the assessment SHOULD be listed under <em>agent</em> and refer to either a <code class="language-plaintext highlighter-rouge">Organization</code> (e.g. an TRE helpdesk), <code class="language-plaintext highlighter-rouge">Person</code> (manual check) or a <a href="http://schema.org/SoftwareApplication">SoftwareApplication</a> (automated check). A <code class="language-plaintext highlighter-rouge">SoftwareApplication</code> acting on behalf of a TRE MUST include a reference to the TRE <code class="language-plaintext highlighter-rouge">Organization</code> using <code class="language-plaintext highlighter-rouge">provider</code>. There may be multiple actors appearing as <code class="language-plaintext highlighter-rouge">agent</code> for different actions, each of which should be listed as contextual entities with at least <code class="language-plaintext highlighter-rouge">name</code>.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w"> </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://tre72.example.com/#crate-validator"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"SoftwareApplication"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"RO-Crate validator at TRE72"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"provider"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://tre72.example.com/"</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w"> </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://tre72.example.com/"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Organization"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TRE 72 trusted research environment at The University of Manchester"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"parentOrganization"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ror.org/027m9bs27"</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="check-phase">Check phase</h4>
+
+<p>Before any further processing, the content of a submitted crate SHOULD be checked for integrity and completeness against the BagIt payload manifest and tag manifest, considering at least the SHA-512 algorithm. This phase MAY also check any cryptographic signatures.</p>
+
+<p>Example:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#check-f33fe90c-0c22-4c72-b299-de509028410e"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AssessAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"additionalType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/shp#CheckValue"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BagIt checksum of Crate: OK"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"endTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-18T12:11:45+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"instrument"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.iana.org/assignments/named-information#sha-512"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#validator-a4a66c63-2fe0-4c57-830d-268a40718313"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"actionStatus"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/CompletedActionStatus"</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.iana.org/assignments/named-information#sha-512"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DefinedTerm"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha-512 algorithm"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>Note</strong> that subsequent modifications to the submitted crate by the TRE will necessarily mean checksums become out of date. It is RECOMMENDED to update the BagIt manifest following crate modifications if further TRE phases require checksum (e.g. after network transfer), however any subsequent internal checksum validations SHOULD NOT be recorded as an AssessAction. Checksums of the final crate MUST be updated by the <a href="#publishing-phase">Publishing phase</a> and recorded accordingly.</p>
+
+<p>The check phase MAY perform any additional file-level security checks required by the particular TRE, e.g. maximum file size of crate, valid characters in filenames or use of symbolic links.</p>
+
+<h4 id="validation-phase">Validation phase</h4>
+
+<p>A crate that has been validated according to RO-Crate specifications and this profile SHOULD <em>mention</em> an <em>AssessAction _which _instrument</em> refers to the profile entity, and an <code class="language-plaintext highlighter-rouge">additionalType</code> referring to <code class="language-plaintext highlighter-rouge">https://w3id.org/shp#ValidationCheck</code></p>
+
+<p>Example:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">  
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#validate-1146f640-819e-4c86-b029-b763a0040896"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AssessAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"additionalType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/shp#ValidationCheck"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Validation against Trusted Workflow Run Crate profile: approved"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"startTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-18T12:11:46+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"endTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-18T12:11:49+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"instrument"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/trusted-wfrun-crate/0.3"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#validator-a4a66c63-2fe0-4c57-830d-268a40718313"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"actionStatus"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/CompletedActionStatus"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The validation phase MAY perform any additional syntactic or semantic checks required by the particular TRE and workflow, e.g. correspondence between provided and expected input parameters, in which case this should be reflected by adding such entities to <code class="language-plaintext highlighter-rouge">object</code> (checked) and <code class="language-plaintext highlighter-rouge">instrument</code> (expected) as arrays.</p>
+
+<h4 id="workflow-retrieval-phase">Workflow retrieval phase</h4>
+
+<p>The referenced workflow crate may be retrieved by the TRE before Sign-off or Workflow Execution, potentially using a local proxy (see <a href="#finding-the-ro-crate-archive">Finding the RO-Crate archive</a> and <a href="#security-considerations">Security considerations</a>). In this case, the retrieval SHOULD be indicated by a <a href="http://schema.org/DownloadAction">DownloadAction</a> with the Workflow RO-Crate’s distribution as <code class="language-plaintext highlighter-rouge">object</code> (indicating the URL that was downloaded from, potentially following Signposting).</p>
+
+<p>Implementations MAY choose to unpack and add the Workflow Crate folder to the Bagit, in which case it SHOULD be indicated as an additional data entity referenced as <em>result</em>, which reference the <code class="language-plaintext highlighter-rouge">mainEntity</code> from <code class="language-plaintext highlighter-rouge">sameAs</code> and the download location in <code class="language-plaintext highlighter-rouge">distribution</code>.</p>
+
+<p>Example:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#download-8b51bf57-6b29-44da-b24b-638c8df91639"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DownloadAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Downloaded workflow RO-Crate via proxy"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"startTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-18T12:11:50+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"endTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-18T12:11:52+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289/ro_crate?version=1"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"workflow/289/"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://proxy.example.com/"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"actionStatus"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/CompletedActionStatus"</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"workflow/289/"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sameAs"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289?version=1"</span><span class="w"> </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Dataset"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CWL Protein MD Setup tutorial with mutations"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"conformsTo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/workflowhub/workflow-ro-crate/1.0"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"distribution"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289/ro_crate?version=1"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="sign-off-phase">Sign-off phase</h4>
+
+<p>Before executing a Trusted Workflow Run Crate, the TRE SHOULD check if the requesting agent is permitted to execute the particular workflow on behalf of the responsible project. This SHOULD include checks against the Agreement policy data maintained by the TRE. This may be a manual and/or automated check, as indicated by <code class="language-plaintext highlighter-rouge">agent</code>. The <code class="language-plaintext highlighter-rouge">object</code> SHOULD additionally reference the workflow and responsible project (unless these were not part of the sign-off checks).</p>
+
+<p>Example:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#signoff-3b741265-cfef-49ea-8138-a2fa149bf2f0"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AssessAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"additionalType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/shp#SignOff"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sign-off of execution according to Agreement policy: approved"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"endTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-19T17:15:12+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./"</span><span class="p">},</span><span class="w"> 
+      </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289?version=1"</span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#project-be6ffb55-4f5a-4c14-b60e-47e0951090c70"</span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"instrument"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://tre72.example.com/agreement-policy/81"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://orcid.org/0000-0002-1825-0097"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"actionStatus"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/CompletedActionStatus"</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://tre72.example.com/agreement-policy/81"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreativeWork"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Agreement policy for TRE72 for project 81"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="workflow-execution-phase">Workflow execution phase</h4>
+
+<p>In this phase, the approved workflow execution is performed within the TRE. The <code class="language-plaintext highlighter-rouge">CreateAction</code> of the workflow execution will its <code class="language-plaintext highlighter-rouge">actionStatus</code> and acquire a <code class="language-plaintext highlighter-rouge">startTime</code> and <code class="language-plaintext highlighter-rouge">endTime</code>.</p>
+
+<p>When the execution is in <code class="language-plaintext highlighter-rouge">http://schema.org/CompletedActionStatus</code> or <code class="language-plaintext highlighter-rouge">http://schema.org/FailedActionStatus</code>, the crate SHOULD also follow the <a href="https://w3id.org/ro/wfrun/provenance/0.1">Provenance Crate</a> profile, e.g. the workflow outputs data entities will be listed as <code class="language-plaintext highlighter-rouge">result</code>.</p>
+
+<h5 id="execution-states">Execution states</h5>
+
+<p>The states of the Trusted Workflow Run Crate is indicated by the <code class="language-plaintext highlighter-rouge">actionStatus</code> of this main action being one of the following string values:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">http://schema.org/PotentialActionStatus</code> -– The request is queued to be executed</li>
+  <li><code class="language-plaintext highlighter-rouge">http://schema.org/ActiveActionStatus</code> -– The request is currently executing</li>
+  <li><code class="language-plaintext highlighter-rouge">http://schema.org/CompletedActionStatus</code> -– The request has finished successfully</li>
+  <li><code class="language-plaintext highlighter-rouge">http://schema.org/FailedActionStatus</code> –- The request failed, but may have partial results or logs.</li>
+</ul>
+
+<h5 id="example-3">Example</h5>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#query-37252371-c937-43bd-a0a7-3680b48c0538"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreateAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"actionStatus"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/CompletetedActionStatus"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"startTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-18T13:52:19+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"endTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-18T14:00:19+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://orcid.org/0000-0001-9842-9718"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"instrument"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289?version=1"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Execute query 12389 on workflow "</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"input1.txt"</span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"result/matches.txt"</span><span class="p">}</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"result/stats.txt"</span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Note that even if the workflow execution action is in <code class="language-plaintext highlighter-rouge">http://schema.org/CompletedActionStatus</code>, two additional phases are required to pass before the Trusted Workflow Run Crate can be considered “finished”, see the following subsections.</p>
+
+<h4 id="disclosure-phase">Disclosure phase</h4>
+
+<p>Before workflow results are returned from the TRE, a disclosure check SHOULD be performed, e.g. to verify the workflow execution has not revealed sensitive data. Depending on the workflow and TRE data this may be automated and/or manual as indicated by <code class="language-plaintext highlighter-rouge">agent</code>.</p>
+
+<p>In the example below, a person has been assigned, while the <code class="language-plaintext highlighter-rouge">actionStatus</code> indicates the disclosure check is pending (<code class="language-plaintext highlighter-rouge">startTime</code> in this case indicating predicted waiting time into the future).</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">  
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#disclosure-b16c1f0a-ae7f-4582-9b28-7d9df3313e27"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AssessAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"additionalType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/shp#DisclosureCheck"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Disclosure check of workflow results: pending (estimate: 1 week)"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"startTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-25T16:00:00+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://orcid.org/0000-0002-1825-0097"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"actionStatus"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/PotentialActionStatus"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>If a crate fails the disclosure phase, its content such as workflow results MUST NOT be included in the returned crate returned to the user. Likewise, its workflow execution <code class="language-plaintext highlighter-rouge">CreateAction</code> and corresponding output data entities SHOULD be removed from the metadata file.</p>
+
+<h4 id="publishing-phase">Publishing phase</h4>
+
+<p>Before a disclosure-approved Trusted Workflow Run Crate is published to the requesting user (or archived in a repository), some housekeeping tasks are to be completed.</p>
+
+<p>The root data entity’s <code class="language-plaintext highlighter-rouge">datePublished</code> SHOULD be updated to the time the manifest is last written. The <code class="language-plaintext highlighter-rouge">publisher</code> SHOULD be updated to reflect the executing TRE. The <code class="language-plaintext highlighter-rouge">mentions</code> MUST be expanded to include all the <code class="language-plaintext highlighter-rouge">AssessAction</code>s recorded by the TRE. <code class="language-plaintext highlighter-rouge">hasPart</code> MUST include (possibly through intermediate folders as <code class="language-plaintext highlighter-rouge">Dataset</code>) any <code class="language-plaintext highlighter-rouge">result</code> data entities now referred to from the workflow execution’s <code class="language-plaintext highlighter-rouge">CreateAction</code>.</p>
+
+<p>The <em><a href="https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#licensing-access-control-and-copyright">licence</a></em> SHOULD be included to describe the licence of the workflow output data, either an open licence such as Creative Commons, or a restrictive (typically TRE-specific) conditions of access.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Dataset"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"conformsTo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/trusted-wfrun-crate/0.3"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"datePublished"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-29T11:01:04+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"publisher"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://tre72.example.com/"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"licence"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://spdx.org/licenses/CC-BY-4.0"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"hasPart"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="nl">"…"</span><span class="p">:</span><span class="s2">""</span><span class="p">}],</span><span class="w">
+  </span><span class="nl">"mainEntity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://workflowhub.eu/workflows/289?version=1"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"mentions"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="nl">"…"</span><span class="p">:</span><span class="s2">""</span><span class="p">}],</span><span class="w">
+  </span><span class="nl">"sourceOrganization"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#project-be6ffb55-4f5a-4c14-b60e-47e0951090c70"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://spdx.org/licenses/CC-BY-4.0"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreativeWork"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Creative Commons Attribution 4.0 International"</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CC-BY-4.0"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>TRE implementations MAY additionally <a href="https://www.researchobject.org/ro-crate/1.1/provenance.html#recording-changes-to-ro-crates">record changes</a> to the RO-Crate as it has progressed through the execution, by associating a <code class="language-plaintext highlighter-rouge">CreateAction</code> and subsequent <code class="language-plaintext highlighter-rouge">UpdateAction</code> to the root data entity as <code class="language-plaintext highlighter-rouge">object</code>.</p>
+
+<p>Following the final update of the RO-Crate Metadata file and content, the BagIt payload manifests and tag manifests MUST be updated (as a minimum because the <em>ro-crate-metadata.json</em> has been modified). The <code class="language-plaintext highlighter-rouge">result</code> entity is NOT recorded, as <code class="language-plaintext highlighter-rouge">../manifest-sha512.txt</code> would have escaped the RO-Crate root. The agent SHOULD delete manifest files it can’t re-generate. After the checksum calculation, the TRE SHOULD not do any further changes to the crate or BagIt files.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#bagit-ce785c0b-c988-4043-8cbd-1489dcebc14f"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"UpdateAction"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"startTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2023-04-29T12:12:25+01:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"additionalType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://w3id.org/shp#GenerateCheckValue"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BagIt manifests of Crate updated"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"object"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"./"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"instrument"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+     </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.iana.org/assignments/named-information#sha-512"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#validator-a4a66c63-2fe0-4c57-830d-268a40718313"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"actionStatus"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://schema.org/CompletedActionStatus"</span><span class="w">
+</span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.iana.org/assignments/named-information#sha-512"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DefinedTerm"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha-512 algorithm"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>Note:</strong> This action must be written to the <em>RO-Crate Metadata File</em> <strong>before</strong> calculating the payload manifest, and therefore can’t include the correct <code class="language-plaintext highlighter-rouge">endTime</code>. The <code class="language-plaintext highlighter-rouge">actionStatus</code> should nevertheless reflect the status as if it has already completed. Likewise, the payload manifest must be calculated before updating the tag manifest, as it includes the checksum of the payload manifest.</p>
+
+<h4 id="receiving-phase">Receiving phase</h4>
+
+<p>Clients receiving a Trusted Workflow Run Crate SHOULD check the BagIt manifest checksums similar to the <a href="#check-phase">Check phase</a>, as well as the status of all the actions specified in this profile before further processing.</p>
+
+<p>It is NOT sufficient for clients to check the publishing AssessAction, as TRE implementations are permitted to expose partial crates which have failed approval phases or which are in pending/execution state.</p>
+
+<p>Clients MAY add additional post-processing data and/or metadata not specified in this profile to the crate (e.g. <a href="http://schema.org/ReceiveAction">ReceiveAction</a>), in which case they SHOULD maintain the BagIt manifests accordingly. Manifest checksums can be used to detect accidental local changes in post-processing.</p>
+
+<h2 id="security-considerations">Security considerations</h2>
+
+<p>It is RECOMMENDED that implementers apply strong access control before accepting a Trusted Workflow Run Crate.</p>
+
+<p>Allowing execution of any Workflow Crate effectively allows execution of arbitrary code. It is RECOMMENDED to check against a list of pre-approved workflows (see 
+<a href="#sign-off-phase">Sign-off phase</a>), e.g. using file checksums or cryptographic signatures.</p>
+
+<p>Clients parsing and unpacking ZIP files, JSON metadata, workflow definitions and BagIt manifests SHOULD apply reasonable security measures to limit the possibility of an attacker to consume excessive disk, CPU or memory resources, as well as escaping any file directory or execution container jails. For instance, clients should check for invalid file path characters, relative paths or symbolic links escaping the crate, as well guard against <em>zip bomb</em> attacks.</p>
+
+<p>Pre-approved workflows could be exploited by a malicious attacker if they, the workflow engine or their tools themselves have security vulnerabilities, e.g. by using hand-crafted input parameters that by-passes command line escapes. Workflow executions are not guaranteed to complete in a given timescale; sufficient timeouts and resource usage restrictions SHOULD therefore be applied by the workflow engine.</p>
+
+<p>It is currently out of scope for this specification how to verify that a Trusted Workflow Run Crate was requested by the given person, or how to verify if the person has access to a particular TRE according to their Agreement policies. It is therefore RECOMMENDED that implementers check authentication and authorization of a submitted query and use strong encryption. Implementers SHOULD check that the <code class="language-plaintext highlighter-rouge">@id</code> and <code class="language-plaintext highlighter-rouge">affiliation</code> of the <em>Requesting Agent</em> and <em>Responsible Project</em> corresponds to the authentication, and MAY inject/overwrite client-submitted data.</p>
+
+<p>Malicious clients submitting a Trusted Workflow Run Crate may have included additional entities, properties and types, which may cause security concerns in an implementation. Implementers SHOULD sanity check inputs, including ensuring that all paths are relative within the bag or absolute URIs, and MUST remove references to any client-submitted _AssessAction_s, as these could be used to bypass the TRE compliance process.</p>
+
+<p>Malicious clients MAY attempt to reference URLs or IP addresses that are only accessible within a TRE. Implementers MUST perform any URL downloads (such as Workflow RO-Crates or container images) in a way that does not access the secured TRE network, e.g. from a <em>Demilitarized Zone</em> (DMZ) with a network firewall restricting access to the TRE, or through a proxying repository controlled by TRE administrators.</p>
+
+<p>As an executed Trusted Workflow Run Crate may be intended for publishing (possibly following an embargo period), it SHOULD NOT include sensitive data or security tokens within the metadata file or the BagIt archive (e.g. in configuration or log files); TREs SHOULD verify this in the <a href="#disclosure-phase">Disclosure Phase</a>. It is RECOMMENDED to use keychain services or time-limited security access tokens that can be assured to be expired before the Crate is published.</p>
+
+<p>The crate MAY include references (e.g. S3 URIs) to sensitive data, in which case the implementation and executed workflow SHOULD protect against divulging sensitive information (directly or indirectly) in the <em>File</em> identifiers, use UUID v5 hashing [<a href="https://doi.org/10.17487/rfc4122">RFC4122</a>]  to hide sensitive identifiers.
+<strong>Note:</strong> predicable identifiers like <code class="language-plaintext highlighter-rouge">patient-456</code> would still be vulnerable in such hashing due to iteration attacks.</p>
+
+<h2 id="media-type-and-profiles">Media type and profiles</h2>
+
+<p>When transferring a Trusted Workflow Run Crate using HTTP, implementations SHOULD use the following HTTP headers for content-type and profile:</p>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">GET</span> <span class="nn">http://example.com/crates/42.zip</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+
+HTTP/1.1 200 OK
+Content-Type: application/zip
+Link: &lt;https://w3id.org/ro/crate&gt;; rel="profile"`
+</code></pre></div></div>
+
+<p>HTML landing pages that reference a Trusted Workflow Run Crate SHOULD include <a href="https://signposting.org/">Signposting</a> using HTTP <code class="language-plaintext highlighter-rouge">Link</code> headers that refer to the Crate’s ZIP download and the RO-Crate profile:</p>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">HEAD</span> <span class="nn">http://example.com/crates/42.html</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Link: &lt;https://example.com/query-12389.zip&gt;; rel="item", type="application/zip"
+Link: &lt;https://w3id.org/ro/crate&gt;; rel="profile"; type="application/zip";
+   anchor="https://example.com/query-12389.zip"
+</code></pre></div></div>
+
+<p>Implementations MAY also provide direct public access to the RO-Crate metadata file, in which case they SHOULD follow the <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/appendix/jsonld.html#ro-crate-json-ld-media-type">RO-Crate media type recommendations</a> for JSON-LD, in which case it is RECOMMENDED to convert the metadata file to <a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/appendix/relative-uris.html#converting-from-attached-to-detached-ro-crate">Detached RO-Crate</a> by establishing a <a href="https://www.researchobject.org/ro-crate/1.1/appendix/relative-uris.html#establishing-a-base-uri-inside-a-zip-file">base URI</a> based on the BagIt <code class="language-plaintext highlighter-rouge">External-Identifier</code> UUID (e.g. <code class="language-plaintext highlighter-rouge">arcp://uuid,9796155a-fe44-4614-89b8-71945f718ffb/</code>).</p>
+
+<h2 id="references">References</h2>
+
+<p>[FIPS 180-4] Secure Hash Standard (SHS) <a href="https://doi.org/10.6028/NIST.FIPS.180-4">https://doi.org/10.6028/NIST.FIPS.180-4</a></p>
+
+<p>[Provenance Run Crate] Provenance Run Crate profile <a href="https://w3id.org/ro/wfrun/provenance/0.1">https://w3id.org/ro/wfrun/provenance/0.1</a></p>
+
+<p>[RFC2119] Key words for use in RFCs to Indicate Requirement Levels <a href="https://doi.org/10.17487/RFC2119">https://doi.org/10.17487/RFC2119</a></p>
+
+<p>[RFC3339] Date and Time on the Internet: Timestamps <a href="https://doi.org/10.17487/RFC3339">https://doi.org/10.17487/RFC3339</a></p>
+
+<p>[RFC4122] A Universally Unique IDentifier (UUID) URN Namespace  <br />
+<a href="https://doi.org/10.17487/rfc4122">https://doi.org/10.17487/rfc4122</a></p>
+
+<p>[RFC8174] Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words <a href="https://doi.org/10.17487/RFC8174">https://doi.org/10.17487/RFC8174</a></p>
+
+<p>[RFC8493] The BagIt File Packaging Format (V1.0) <br />
+<a href="https://doi.org/10.17487/rfc8493">https://doi.org/10.17487/rfc8493</a></p>
+
+<p>[RO-Crate 1.1] RO-Crate Metadata Specification 1.1 <br />
+<a href="https://w3id.org/ro/crate/1.1">https://w3id.org/ro/crate/1.1</a></p>
+
+<p>[RO-Crate] Research Object Crate (RO-Crate) <br />
+<a href="https://w3id.org/ro/crate">https://w3id.org/ro/crate</a></p>
+
+<p>[schema] Schema.org vocabulary <a href="http://schema.org/">http://schema.org/</a></p>
+
+<p>[schema Action] Schema.org potential action <a href="http://schema.org/docs/actions.html">http://schema.org/docs/actions.html</a></p>
+
+<p>[Signposting] Signposting the Scholarly Web <a href="https://signposting.org/">https://signposting.org/</a></p>
+
+<p>[Workflow RO-Crate] Workflow RO-Crate profile <a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">https://w3id.org/workflowhub/workflow-ro-crate/1.0</a></p>
+
+<p>[Workflow Run Crate] Workflow Run Crate profile <a href="https://w3id.org/ro/wfrun/workflow/0.1">https://w3id.org/ro/wfrun/workflow/0.1</a></p>
+
+<p>[ZIP] APPNOTE.TXT - .ZIP File Format Specification 6.3.8 <a href="http://www.pkware.com/documents/casestudies/APPNOTE.TXT">http://www.pkware.com/documents/casestudies/APPNOTE.TXT</a></p>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/trefx/5s-crate/edit/main/0.3/index.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
