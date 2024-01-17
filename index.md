@@ -53,17 +53,17 @@ _Zenodo_
 
 Tom Giles, Jonathan Couldridge, Sam Cox, Daniel Lea, Vasiliki Panagi, Simon Thompson, Philip Quinlan (2024):  
 [**TRE-FX Technical Documentation - Primary Implementation**](https://doi.org/10.5281/zenodo.10376658).  
-_Zenodo_
+_Zenodo_  
 <https://doi.org/10.5281/zenodo.10376658> (in preparation)
 
 Blaise Thomson, Naaman Tammuz, Thomas Giles, Philip Quinlan, Carole Goble (2024):  
 [**TRE-FX Technical Documentation - Bitfount Implementation**](https://doi.org/10.5281/zenodo.10376572).  
-_Zenodo_
+_Zenodo_  
 <https://doi.org/10.5281/zenodo.10376572>
 
 Stuart Wheater, Thomas Giles, Philip Quinlan, Carole Goble (2024):  
 [**TRE-FX Technical Documentation - DataSHIELD Implementation**](https://doi.org/10.5281/zenodo.10375984).  
-_Zenodo_
+_Zenodo_  
 <https://doi.org/10.5281/zenodo.10375984>
 
 Simone Leo, Michael R. Crusoe, Laura Rodríguez-Navas, Raül Sirvent, Alexander Kanitz, Paul De Geest, Rudolf Wittner, Luca Pireddu, Daniel Garijo, José M. Fernández, Iacopo Colonnelli, Matej Gallo, Tazro Ohta, Hirotaka Suetake, Salvador Capella-Gutierrez, Renske de Wit, Bruno de Paula Kinoshita, Stian Soiland-Reyes (2023):  
