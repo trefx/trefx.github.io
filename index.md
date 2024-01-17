@@ -47,7 +47,7 @@ _Zenodo_ / DARE UK
 <https://doi.org/10.5281/zenodo.10055354>
 
 Stian Soiland-Reyes, Stuart Wheater, Thomas Giles, Carole Goble, Philip Quinlan (2023):  
-**TRE-FX Technical Documentation - Five Safes RO-crate**.  
+[**TRE-FX Technical Documentation - Five Safes RO-crate**](https://doi.org/10.5281/zenodo.10376350).  
 _Zenodo_  
 <https://doi.org/10.5281/zenodo.10376350>
 
@@ -65,6 +65,11 @@ Stuart Wheater, Thomas Giles, Philip Quinlan, Carole Goble (2024):
 [**TRE-FX Technical Documentation - DataSHIELD Implementation**](https://doi.org/10.5281/zenodo.10375984).  
 _Zenodo_
 <https://doi.org/10.5281/zenodo.10375984>
+
+Simone Leo, Michael R. Crusoe, Laura Rodríguez-Navas, Raül Sirvent, Alexander Kanitz, Paul De Geest, Rudolf Wittner, Luca Pireddu, Daniel Garijo, José M. Fernández, Iacopo Colonnelli, Matej Gallo, Tazro Ohta, Hirotaka Suetake, Salvador Capella-Gutierrez, Renske de Wit, Bruno de Paula Kinoshita, Stian Soiland-Reyes (2023):  
+[**Recording provenance of workflow runs with RO-Crate**](https://arxiv.org/pdf/2312.07852.pdf).  
+_arXiv_:2312.07852  
+<https://doi.org/10.48550/arXiv.2312.07852>
 
 ## Next steps
 
