@@ -1,12 +1,12 @@
 subitems:
   - title: Home
     url: /
-  - title: Implementation
+  - title: Implementations
     url: /implementation
   - title: Five Safes RO-Crate
     url: /5s-crate/
-  - title: TRE Stakeholder Workshop
-    url: /2023-07-11-tre-stakeholder-workshop
+  - title: Guides
+    url: /guides
   - title: GitHub
     url: https://github.com/trefx/
 
