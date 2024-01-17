@@ -8,36 +8,19 @@ _Delivering a federated network of TREs to enable safe analytics_
 
 <a href="assets/img/tre-fx-logo.svg"><img src="assets/img/tre-fx-logo.svg" alt="TRE-FX, delivering a federated network of TREs to enable safe analytics" /></a>
 
-TRE-FX was a project funded in 2023 by [UK Research and Innovation (UKRI)](https://www.ukri.org/) as part of the [“DARE UK (Data and Analytics Research Environments UK)”](https://dareuk.org.uk/) programme ([MC_PC_23007](https://gtr.ukri.org/projects?ref=MC_PC_23007)).
-
+TRE-FX was funded by UK Research & Innovation [Grant Number MC_PC_23007] as part of Phase 1 of the DARE UK (Data and Analytics Research Environments UK) programme, delivered in partnership with Health Data Research UK (HDR UK) and Administrative Data Research UK (ADR UK). 07)).
 
 ## Motivation
 
-Trusted Research Environments (TREs) are secure locations in which data are placed
-for researchers to analyse. They host administrative data, hospital data or any other
-data that must be securely isolated and only accessible for approved queries by
-approved researchers. 
+Trusted Research Environments (TREs) are secure locations in which data are placed for researchers to analyse. TREs host administrative data, hospital data or any other data that needs to remain securely isolated, but _it is hard for a researcher to perform an analysis across multiple TREs_, requesting and gathering the outputs from each one. This is a common problem in the UK's devolved healthcare system of geographical and governance boundaries. 
 
-However, _it is hard for a researcher to perform analysis across
-multiple TREs_, for example when data is to be analysed across geographical or
-governance boundaries, such as the devolved nature of healthcare in the United
-Kingdom. _Yet this ability is urgently needed_. 
+There are different ways of implementing TREs and the analysis tools that use them. A solution must be straightforward for existing, independent systems to adopt, must cope with the variety of system implementations, and must work within the "Five Safes" framework that enables data services to provide safe research access to data. 
 
-Analysis across a federation of TREs
-would enable timely analysis of UK wide scattered data to answer urgent questions,
-as we needed in the COVID-19 pandemic. The technologies and standards we need to be able to do this are available now. They
-do not need to be invented. 
+TRE-FX assembled leading infrastructure researchers, analysis tool makers, TRE providers and public engagement specialists to streamline the exchange of data requests and results. The [Five Safes RO-Crate](/5s-crate/) standard packages up (Crates) the Objects needed for Research requests and results with the information needed for the tools and TRE providers to ensure that the crates are reviewed and processed according to Five Safes principles. TRE-FX [showed how this works](implementation) using software components and an end-to-end demonstrator implemented by a TRE in Wales. Two other TREs, in Scotland and England, are preparing to follow suit. Two analysis tool providers (Bitfount and DataSHIELD) modified their systems to use the RO-Crates. The next step is practical implementation as part of the HDR UK programme. Two large European projects will develop the approach further. 
 
-**TRE-FX** assembled leading technology providers from
-[ELIXIR-UK](https://elixiruknode.org/) and [HDR UK](https://www.hdruk.ac.uk/), 
-with three TRE providers and two leading analysis platforms
-to show through a real reference implementation how we can use secure Research
-Objects to move between TREs while still following the **Five Safes framework** that
-govern and protect patient data; all overseen by patient representatives.
+TRE-FX shows that it is possible to streamline how analysis tools access multiple TREs while enabling the TREs to ensure that the access is safe. The approach scales as more TREs are added and can be adopted by established systems. Researchers will then be able to perform an analysis across multiple TREs much more easily, widening the scope of their research and making more effective use of the UK's data. If we had had this for COVID-19 data analysis, it would have super-charged researchers to be able to quickly answer pressing questions across the UK. 
 
-The impact will be a step change for how researchers can safely combine data from
-many sources, and for how data providers from any sector can safely implement this
-using technology and standards we already have today.
+
 
 ## Project outputs
 
