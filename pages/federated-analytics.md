@@ -19,6 +19,9 @@ Data cannot be added or removed without proper permissions, ensuring transparenc
 Researchers can apply to access and analyse the data using computer programs they develop. While TREs are secure, organisations must still follow legal requirements when sending data to a TRE. 
 
 
+{% include image.html file="/assets/img/tre.png" caption="Figure 1. An approved researcher interacts with a Trusted Research Environment securely for computational analysis of sensitive health data." alt="A researcher passes safety checks to access a TRE. Secure file transfer of data from institutions with safety checks." max-width="10" %}
+
+
 ## The Five Safes – what are they and why are they important? {#fivesafes}
 
 Health data contains personal and sensitive information about people. When this data is used for research, it's crucial to handle it safely, even if it has been made anonymous. This way, we can all benefit from important research findings while respecting individuals' privacy. To ensure safe data usage, a framework called the Five Safes has been introduced.
@@ -31,7 +34,7 @@ The projects requesting access to the data are thoroughly evaluated to make sure
 
 By following the Five Safes principles, health data can be used responsibly, leading to valuable research outcomes while safeguarding the privacy of individuals.
 
-{% include image.html file="/assets/five-safes.png" caption="Figure 1. Five Safes: Safe Projects, Safe People, Safe Setting, Safe Output, Safe Data." alt="Safe Projects (is the requested use of the data appropriate?), Safe People (Can the researchers be trusted to ue the data appropriately?), Safe Settings (Is the data stored in a safe manner which limits the possibility for unauthorised use?), Safe Output (Could the results cause any individual to be identified, can this be minimised?), Safe Data (Is there a risk that a person could be identified from the data, can this be minimised?) " max-width="10" %}
+{% include image.html file="/assets/five-safes.png" caption="Figure 2. Five Safes: Safe Projects, Safe People, Safe Setting, Safe Output, Safe Data." alt="Safe Projects (is the requested use of the data appropriate?), Safe People (Can the researchers be trusted to ue the data appropriately?), Safe Settings (Is the data stored in a safe manner which limits the possibility for unauthorised use?), Safe Output (Could the results cause any individual to be identified, can this be minimised?), Safe Data (Is there a risk that a person could be identified from the data, can this be minimised?) " max-width="10" %}
 
 ## What is federated analytics? {#federated}
 
@@ -40,6 +43,8 @@ Federated analytics is a system where the data does not move, and instead the co
 Sometimes the dataset is made from lots of pots of data in different settings.  For example, a dataset studying asthma might include data from several hospitals around the country. Instead of the hospitals sending all that data to one TRE (as described above), in federated analytics each hospital would build their own TRE and keep their data within that TRE. 
 
 In this situation, the researcher writes their computer code and this is then sent to each TRE, analysing only the data kept in that one TRE.  The results from all the different TREs are then returned to the researchers and combined.
+
+{% include image.html file="/assets/img/tre-federated.png" caption="Figure 3. In federated analytics, an approved researcher interacts with a system that sends her analysis code to each TRE" alt="A researcher communicates securely with a system, which has separate secure TRE requests passing along code for execution. Summary outputs of data are returned from each TRE." max-width="10" %}
 
 ### Why is Federated analytics needed? {#why-federated}
 
@@ -57,6 +62,8 @@ The key reasons it is needed are as follows:
 * By enabling collaboration and knowledge sharing, federated analytics supports innovation and discovery. 
 * Machine learning models can be trained on local devices to capture unique insights.
 
+![Illustration of laptop for analytics](/assets/img/laptop.png)
+
 ## What are the advantages and  disadvantages of federated analytics? {#pros-and-cons}
 
 Advantages:
@@ -66,6 +73,8 @@ Advantages:
 * The local organisation has control over who accesses the data
 * The local organisation can audit and check which data is usde for which project
 
+![Illustration of safe data](/assets/img/safe.png)
+
 Disadvantages:
 * As each organization only "sees" its own data, it is harder to check that the data has been collected in the same way
 * It is harder to know what the whole dataset looks like, as data is spread across organizations
@@ -73,7 +82,12 @@ Disadvantages:
 * It is unknown whether analysis data in "pots" and combing the results loses any meaning or accuacy
 * The local organisation has to know how to build and run a TRE
 
+
+![Illustration of a person](/assets/img/person.png)
+
 ## What is TRE-FX and what is the project trying to do? {#trefx}
+
+![TRE-FX](/assets/img/tre-fx-logo.svg)
 
 _It is hard for a researcher to perform analysis across multiple TREs_, for example when data is to be analysed across geographical or governance boundaries, such as the devolved nature of healthcare in the United Kingdom. _Yet this ability is urgently needed_.
 
@@ -83,4 +97,14 @@ Analysis across a federation of TREs would enable timely analysis of UK wide sca
 
 The impact will be a step change for how researchers can safely combine data from many sources, and for how data providers from any sector can safely implement this using technology and standards we already have today.
 
+![University of Manchester](/assets/img/partners/manchester.png)
+![University of Nottingham](/assets/img/partners/nottingham.png)
+![Health Data Research UK](/assets/img/partners/hdruk.svg)
+![University of Dundee](/assets/img/partners/dundee.png)
+![Swansea University](/assets/img/partners/swansea.png)
+![University of Liverpool](/assets/img/partners/liverpool.png)
+![University Hospitals Birmingham](/assets/img/partners/birmingham.png)
+![Bitfount](/assets/img/partners/bitfount.png)
+![DataSHIELD](/assets/img/partners/datashield.png)
+![PIONEER](/assets/img/partners/pioneer.png)
 
