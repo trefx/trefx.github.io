@@ -1,14 +1,14 @@
 ---
-title: Guides
+title: What is federated analytics?
 ---
 
 # What is federated analytics and what it might mean for me and my health data?
 
 1. [What is a Trusted Research Environment (TRE)?](#tre)
-2. [What are the Five Safes?](#5safes)
+2. [What are the Five Safes?](#fivesafes)
 3. [What is federated analytics and why is it needed?](#federated)
-4. Advantages and disadvantages of federated analytics
-5. What is TRE-FX and what is the project trying to do?
+4. [Advantages and disadvantages of federated analytics](#pros-and-cons)
+5. [What is TRE-FX and what is the project trying to do?](#trefx)
 
 ## What is a Trusted Research Environment (TRE)? {#tre}
 
@@ -19,7 +19,7 @@ Data cannot be added or removed without proper permissions, ensuring transparenc
 Researchers can apply to access and analyse the data using computer programs they develop. While TREs are secure, organisations must still follow legal requirements when sending data to a TRE. 
 
 
-## The Five Safes – what are they and why are they important?  {#5safes}
+## The Five Safes – what are they and why are they important? {#fivesafes}
 
 Health data contains personal and sensitive information about people. When this data is used for research, it's crucial to handle it safely, even if it has been made anonymous. This way, we can all benefit from important research findings while respecting individuals' privacy. To ensure safe data usage, a framework called the Five Safes has been introduced.
 
@@ -40,7 +40,7 @@ Sometimes the dataset is made from lots of pots of data in different settings.  
 
 In this situation, the researcher writes their computer code and this is then sent to each TRE, analysing only the data kept in that one TRE.  The results from all the different TREs are then returned to the researchers and combined.
 
-### Why is Federated analytics needed?
+### Why is Federated analytics needed? {#why-federated}
 
 Federated analytics is an innovative approach that enables data analysis and machine learning while respecting privacy and security. They allow organisations and individuals to collectively gain insights and train models without directly sharing their raw data.
 
@@ -56,7 +56,7 @@ The key reasons it is needed are as follows:
 * By enabling collaboration and knowledge sharing, federated analytics supports innovation and discovery. 
 * Machine learning models can be trained on local devices to capture unique insights.
 
-## What are the advantages and  disadvantages of federated analytics?
+## What are the advantages and  disadvantages of federated analytics? {#pros-and-cons}
 
 Advantages:
 
@@ -72,7 +72,7 @@ Disadvantages:
 * It is unknown whether analysis data in "pots" and combing the results loses any meaning or accuacy
 * The local organisation has to know how to build and run a TRE
 
-## What is TRE-FX and what is the project trying to do?
+## What is TRE-FX and what is the project trying to do? {#trefx}
 
 _It is hard for a researcher to perform analysis across multiple TREs_, for example when data is to be analysed across geographical or governance boundaries, such as the devolved nature of healthcare in the United Kingdom. _Yet this ability is urgently needed_.
 
