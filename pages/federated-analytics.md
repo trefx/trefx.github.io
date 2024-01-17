@@ -19,7 +19,7 @@ Data cannot be added or removed without proper permissions, ensuring transparenc
 Researchers can apply to access and analyse the data using computer programs they develop. While TREs are secure, organisations must still follow legal requirements when sending data to a TRE. 
 
 
-{% include image.html file="/assets/img/tre.png" caption="Figure 1. An approved researcher interacts with a Trusted Research Environment securely for computational analysis of sensitive health data." alt="A researcher passes safety checks to access a TRE. Secure file transfer of data from institutions with safety checks." max-width="10" %}
+{% include image.html file="tre.png" caption="Figure 1. An approved researcher interacts with a Trusted Research Environment securely for computational analysis of sensitive health data." alt="A researcher passes safety checks to access a TRE. Secure file transfer of data from institutions with safety checks." max-width="10" %}
 
 
 ## The Five Safes – what are they and why are they important? {#fivesafes}
