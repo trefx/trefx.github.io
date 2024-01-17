@@ -31,6 +31,7 @@ The projects requesting access to the data are thoroughly evaluated to make sure
 
 By following the Five Safes principles, health data can be used responsibly, leading to valuable research outcomes while safeguarding the privacy of individuals.
 
+{% include image.html file="/assets/five-safes.png" caption="Figure 1. Five Safes: Safe Projects, Safe People, Safe Setting, Safe Output, Safe Data." alt="Safe Projects (is the requested use of the data appropriate?), Safe People (Can the researchers be trusted to ue the data appropriately?), Safe Settings (Is the data stored in a safe manner which limits the possibility for unauthorised use?), Safe Output (Could the results cause any individual to be identified, can this be minimised?), Safe Data (Is there a risk that a person could be identified from the data, can this be minimised?) " max-width="10" %}
 
 ## What is federated analytics? {#federated}
 
