@@ -1,5 +1,5 @@
 ---
-title: Public Engagement
+title: Public Involvement and Engagement
 ---
 
 * [What is federated analytics and what it might mean for me and my health data?](/federated-analytics) (also as [brochure PDF](/reports/brochure-what-is-fed-a.pdf))
