@@ -24,6 +24,11 @@ TRE-FX assembled leading infrastructure researchers, analysis tool makers, TRE p
 
 ## Project outputs
 
+Carole Goble, Phil Quinlan (2024):  
+[**TRE-FX: Core federation services for a federated network of TREs to enable Five Safes analytics**](https://doi.org/10.5281/zenodo.10527062).  
+_DARE UK Webinar_, "[Linking Sensitive Data](https://dareuk.org.uk/linking-sensitive-data-insights-from-the-dare-uk-driver-projects-webinar-wednesday-17-january-2024-12-130pm/): Insights from the DARE UK Driver Projects", 2024-01-17  
+<https://doi.org/10.5281/zenodo.10527062>
+
 Thomas Giles, Stian Soiland-Reyes, Jonathan Couldridge, Stuart Wheater, Blaise Thomson, Jillian Beggs, Suzy Gallier, Sam Cox, Daniel Lea, Justin Biddle, Rima Doal, Naaman Tammuz, Becca Wilson, Christian Cole, Elizabeth Sapey, Simon Thompson, Professor Emily Jefferson, Phillip Quinlan, Carole Goble (2023):  
 [**TRE-FX: Delivering a federated network of trusted research environments to enable safe data analytics**](https://doi.org/10.5281/zenodo.10055354).  
 _Zenodo_ / DARE UK  
