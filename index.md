@@ -42,7 +42,7 @@ _Zenodo_
 Tom Giles, Jonathan Couldridge, Sam Cox, Daniel Lea, Vasiliki Panagi, Simon Thompson, Philip Quinlan (2024):  
 [**TRE-FX Technical Documentation - Primary Implementation**](https://doi.org/10.5281/zenodo.10376658).  
 _Zenodo_  
-<https://doi.org/10.5281/zenodo.10376658> (in preparation)
+<https://doi.org/10.5281/zenodo.10376658>
 
 Blaise Thomson, Naaman Tammuz, Thomas Giles, Philip Quinlan, Carole Goble (2024):  
 [**TRE-FX Technical Documentation - Bitfount Implementation**](https://doi.org/10.5281/zenodo.10376572).  
