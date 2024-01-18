@@ -2,6 +2,38 @@
 title: TRE-FX News
 ---
 
+## 2024-01-18
+
+Additional TRE-FX implementation reports has been published in Zenodo:
+
+* [TRE-FX Technical Documentation - Five Safes RO-crate](https://doi.org/10.5281/zenodo.10376350)
+* [TRE-FX Technical Documentation - Primary Implementation](https://doi.org/10.5281/zenodo.10376658)
+* [TRE-FX Technical Documentation - Bitfount Implementation](https://doi.org/10.5281/zenodo.10376572)
+* [TRE-FX Technical Documentation - DataSHIELD Implementation](https://doi.org/10.5281/zenodo.10375984)
+
+
+
+## 2024-01-17
+
+Carole Goble presented TRE-FX as part of the DARE UK webinar [Linking Sensitive Data: Insights from the DARE UK Driver Projects](https://dareuk.org.uk/linking-sensitive-data-insights-from-the-dare-uk-driver-projects-webinar-wednesday-17-january-2024-12-130pm/)
+
+* [TRE-FX: Core federation services for a federated network of TREs to enable Five Safes analytics](https://doi.org/10.5281/zenodo.10527062) (slides)
+
+## 2023-11-08
+
+Final reports on TRE-FX have been published in the DARE UK Zenodo community:
+
+* [TRE-FX: Delivering a federated network of trusted research environments to enable safe data analytics](https://doi.org/10.5281/zenodo.10055354)
+* [TRE-FX Public Involvement and Engagement Final Report](https://doi.org/10.5281/zenodo.10084398)
+
+
+## 2023-10-16
+
+TRE-FX was presented as part of the DARE UK Driver project showcase day in Edinburgh.
+
+* [](https://www.youtube.com/watch?v=ubQZlZGPsSY)
+* [DARE UK Driver Projects Final Showcase Day - Interview with Dr Phil Quinlan](https://www.youtube.com/watch?v=377fzLwxLzI)
+
 
 ## 2023-07-19
 
