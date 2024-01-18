@@ -19,6 +19,10 @@ Stuart Wheater, Thomas Giles, Philip Quinlan, Carole Goble (2024):
 _Zenodo_
 <https://doi.org/10.5281/zenodo.10375984>
 
+## Videoes
+
+* [DARE-TREFX Demo end to end](https://www.youtube.com/watch?v=BMbSjIzVIA4)
+
 ## Planned TRE-FX architecture
 
 The below is the originally planned architecture, for the realized implementations, see reports above.
