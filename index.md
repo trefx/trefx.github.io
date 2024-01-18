@@ -34,6 +34,11 @@ Thomas Giles, Stian Soiland-Reyes, Jonathan Couldridge, Stuart Wheater, Blaise T
 _Zenodo_ / DARE UK  
 <https://doi.org/10.5281/zenodo.10055354>
 
+Jillian Beggs, Suzy Gallier, Sharon Steele, Andrew Percy, Philip Quinlan, Carole Goble (2023):  
+[**TRE-FX Public Involvement and Engagement Final Report**](https://doi.org/10.5281/zenodo.10084398).  
+_Zenodo_  
+<https://doi.org/10.5281/zenodo.10084398>
+
 Stian Soiland-Reyes, Stuart Wheater, Thomas Giles, Carole Goble, Philip Quinlan (2023):  
 [**TRE-FX Technical Documentation - Five Safes RO-crate**](https://doi.org/10.5281/zenodo.10376350).  
 _Zenodo_  
