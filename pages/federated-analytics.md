@@ -1,8 +1,6 @@
 ---
-title: What is federated analytics?
+title: What is federated analytics and what might it mean for me and my health data?
 ---
-
-# What is federated analytics and what it might mean for me and my health data?
 
 1. [What is a Trusted Research Environment (TRE)?](#tre)
 2. [What are the Five Safes?](#fivesafes)
