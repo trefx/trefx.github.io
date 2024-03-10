@@ -8,5 +8,6 @@ title: Public Involvement and Engagement
 * [TRE-FX Public Involvement and Engagement Final Report](https://doi.org/10.5281/zenodo.10084398) (PDF)
 * [Focus Group report #1](/reports/focus-group-report-1.pdf) (PDF)
 * [Focus Group report #2](/reports/focus-group-report-2.pdf) (PDF)
-
+* [Video: Using Digital boxes for Safe and Secure Federated Analytics](https://www.youtube.com/watch?v=31AqEu3Qe1g)
+* [Video: The Federated Approach](https://www.youtube.com/watch?v=31AqEu3Qe1g)
   
